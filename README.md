@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+Somos a Allie uma empresa de soluções digitais, e estamos trabalhando para melhor atendê-los.
+📫 How to reach me: digital06@allie.com.br
+
 <!--
 **AllieDigital/alliedigital** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
