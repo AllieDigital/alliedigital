@@ -1,19 +1,15 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import '../style/Headers.css';
+import logo from '../image/logo.png';
 
 function Header () {
   return (
 
     <div className="head">
-
-      <div className="logo">
-        
-        <img src="../src/image/logo.png" alt="logo empresa allie" />
-  
-      </div>
       
       <nav>
+        <img src={logo} alt="logo empresa allie" className="logo" />
         <ul className="container">
           <li><a href="tour">Tour 360</a></li>
           <li><a href="laser">Laser Scanner</a></li>
