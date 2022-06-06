@@ -6,10 +6,15 @@ function Header () {
   return (
 
     <div className="head">
+
+      <div className="logo">
+        
+        <img src="../image/alogo.jpeg" alt="logo empresa aliie" />
+  
+      </div>
       
       <nav>
         <ul className="container">
-          <li><a href="allie">Allie Digital</a></li>
           <li><a href="tour">Tour 360</a></li>
           <li><a href="laser">Laser Scanner</a></li>
           <li><a href="fotogrametria">Fotogrametria</a></li>

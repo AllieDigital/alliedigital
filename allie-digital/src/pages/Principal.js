@@ -6,6 +6,7 @@ function Principal () {
   return (
     <div>
       <Header />
+      
       <Footer />
     </div>
   );
