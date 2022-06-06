@@ -9,7 +9,7 @@ function Header () {
 
       <div className="logo">
         
-        <img src="../image/alogo.jpeg" alt="logo empresa aliie" />
+        <img src="../src/image/logo.png" alt="logo empresa allie" />
   
       </div>
       
