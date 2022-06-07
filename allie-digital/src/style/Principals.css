@@ -1,21 +1,45 @@
 .primeiraimg {
     background-image: url("https://cdn.pixabay.com/photo/2022/05/17/21/46/metaverse-7203825_960_720.jpg");
     height: 600px;
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-h1 {
-    color: #f0f0d8;
-    margin-right: 600px;
+.containercases {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
-h2 {
+.tour {
+    background-image: url("https://i.pinimg.com/originals/2f/77/4a/2f774a581e693b648a334c84dc86505a.gif");
+    height: 600px;
+    width: 33.33%;
+}
+
+.laser {
+    background-image: url("https://images.adsttc.com/media/images/5787/e58d/e58e/ceaa/6200/001c/original/Nautilus_TEN___NGO_City_Creative_Network.gif?1468523915");
+    height: 600px;
+    width: 33.33%;
+}
+
+.fotogrametria {
+    background-image: url("https://images.adsttc.com/media/images/59de/1e2d/b22e/3829/2f00/0622/original/gif-1.gif?1507728937");
+    height: 600px;
+    width: 33.33%;
+}
+
+button {
+    background-color: black;
     color: white;
-    margin-right: 350px;
+    border-radius: 20px;
+    transition: 500ms;
+    width: 100px;
+    height: 30px;
 }
 
-.primeiradescricao {
-
+button:hover {
+    transform: scale(1.4);
+    background-color: white;
+    color: black;
 }
