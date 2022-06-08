@@ -1,19 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
 import Principal from './pages/Principal';
-// import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from './pages/Login';
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header> */}
-      <Principal />
-      {/* <Routes>
-        <Route path="/" element={<Principal />} />
-        <Route path="about" element={<Sobre />} />
-      </Routes> */}
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Principal />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

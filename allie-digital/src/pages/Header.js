@@ -2,6 +2,7 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import '../style/Headers.css';
 import logo from '../image/logo.png';
+import { Link } from 'react-router-dom';
 
 function Header () {
   return (
@@ -14,7 +15,7 @@ function Header () {
           <li><a href="tour">Tour 360</a></li>
           <li><a href="laser">Laser Scanner</a></li>
           <li><a href="fotogrametria">Fotogrametria</a></li>
-          <li><a href="login">Login</a></li>
+          <li><Link to="/login">Login</Link></li>
         </ul>
       </nav>
         
