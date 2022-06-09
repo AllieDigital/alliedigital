@@ -1,69 +1,62 @@
 import React from 'react';
 import '../style/Logins.css';
+import { Link } from 'react-router-dom';
+
 
 function Login () {
-
-    <div>
-    <div>
-        <head>
+  return (
+    <>
+      <head>
         <title>Login</title>
-        </head>
-    </div>
+      </head>
     
-    <body>
-            <div class="container">
-                <div class="container-login">
-                    <div class="wrap-login">
-                        <form class="login-form">
-                            <span class="login-form-title">
-                                Faça o login
-                            </span>
+      <body>
 
-                            <div class="wrap-input margin-top-35 margin-bottom-35">
-                                <input class="input-form" type="text" name="email" autocomplete="off" />
-                                <span class="focus-input-form" data-placeholder="E-mail"></span>
-                            </div>
+        <div id="login">
 
-                            <div class="wrap-input margin-bottom-35">
-                                <input class="input-form" type="password" name="password" />
-                                    <span class="focus-input-form" data-placeholder="Senha"></span>
-                                </div>
+          <form class="card">
 
-                            <div class="container-login-form-btn">
-                                <button class="login-form-btn">
-                                    Login
-                                </button>
-                            </div>
+            <div class="card-header">
 
-                            <ul class="login-utils">
-                                <li class="margin-bottom-8 margin-top-8">
-                                    <span class="text1">
-                                        Esqueceu sua
-                                    </span>
+              <h2>Login</h2>
 
-                                    <a href="#" class="text2">
-                                        senha?
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <span class="text1">
-                                        Não tem conta?
-                                    </span>
-
-                                    <a href="#" class="text2">
-                                        Criar
-                                    </a>
-                                </li>
-                            </ul>
-                        </form>
-                    </div>
-                    <img src="images/login.png" width="300" height="300" class="margin-left-50" />
-                </div>
             </div>
 
-        </body>
-    </div>
+            <div class="card-content">
+
+              <div class="card-content-area">
+
+                <label for="usuario">Usuário</label>
+
+                <input type="text" id="usuario" autocomplete="off" />
+
+              </div>
+
+              <div class="card-content-area">
+
+                <label for="password">Senha</label>
+
+                <input type="password" id="password" autocomplete="off" />
+
+              </div>
+
+            </div>
+
+            <div class="card-footer">
+
+              <button type="submit" class="submit">Entrar</button>
+
+              <Link to="/cadastro" className="cadastro">Cadastrar</Link>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </body>
+    </>
+  );
 }
 
 export default Login;

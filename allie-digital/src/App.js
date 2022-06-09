@@ -14,12 +14,12 @@ function App() {
       
         <Routes>
 
-          <Route exact path="/" component={ Principal } />
-          <Route path="/login" component={ Login } />
-          <Route path="/cadastro" component={ Cadastro } />
-          <Route path="/tour" component={ Tour } />
-          <Route path="/laser" component={ LaserScanner } />
-          <Route path="/fotogrametria" component={ Fotogrametria } />
+          <Route path='/' element={ <Principal /> } />
+          <Route path='/login' element={ <Login /> } />
+          <Route path='/cadastro' element={ <Cadastro /> } />
+          <Route path='/tour' element={ <Tour /> } />
+          <Route path='/laser' element={ <LaserScanner /> } />
+          <Route path='/fotogrametria' element={ <Fotogrametria /> } />
 
         </Routes>
 

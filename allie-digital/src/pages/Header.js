@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import '../style/Headers.css';
 import logo from '../image/logo.png';
 import { Link } from 'react-router-dom';
@@ -10,11 +9,11 @@ function Header () {
     <header>
       
       <nav>
-        <a href="home"><img src={logo} alt="logo empresa allie" className="logo" /></a>
+        <Link to="/"><img src={logo} alt="logo empresa allie" className="logo" /></Link>
         <ul className="container">
-          <li><a href="tour">Tour 360</a></li>
-          <li><a href="laser">Laser Scanner</a></li>
-          <li><a href="fotogrametria">Fotogrametria</a></li>
+          <li><Link to="/tour">Tour 360°</Link></li>
+          <li><Link to="/laser">Laser Scanner</Link></li>
+          <li><Link to="/fotogrametria">Fotogrametria</Link></li>
           <li><Link to="/login">Login</Link></li>
         </ul>
       </nav>
