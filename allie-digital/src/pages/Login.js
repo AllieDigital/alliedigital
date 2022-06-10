@@ -4,12 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 function Login () {
-  return (
-    <>
-      <head>
-        <title>Login</title>
-      </head>
-    
+  return (   
       <body>
 
         <div id="login">
@@ -46,7 +41,7 @@ function Login () {
 
               <button type="submit" class="submit">Entrar</button>
 
-              <Link to="/cadastro" className="cadastro">Cadastrar</Link>
+              <Link to="/cadastro" className="cadastro">Não tem login? Cadastre-se</Link>
 
             </div>
 
@@ -55,7 +50,6 @@ function Login () {
         </div>
 
       </body>
-    </>
   );
 }
 
