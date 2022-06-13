@@ -2,6 +2,7 @@ import React from 'react';
 import '../style/Principals.css';
 import Footer from './Footer';
 import Header from './Header';
+import { Link } from 'react-router-dom';
 
 function Principal () {
   return (
@@ -23,9 +24,11 @@ function Principal () {
           <h2>
             descrição
           </h2>
-          <button type="button">
+          <Link to="/tour">
+            <button type="button">
             Descubra
-          </button>
+            </button>
+          </Link>
         </div>
 
         <div className="laser">
@@ -35,9 +38,11 @@ function Principal () {
           <h2>
             descrição
           </h2>
-          <button type="button">
-            Descubra
-          </button>
+          <Link to="/laser">
+            <button type="button">
+              Descubra
+            </button>
+          </Link>
         </div>
 
         <div className="fotogrametria">
@@ -47,9 +52,11 @@ function Principal () {
           <h2>
             descrição
           </h2>
-          <button type="button">
-            Descubra
-          </button>
+          <Link to="/fotogrametria">
+            <button type="button">
+              Descubra
+            </button>
+          </Link>
         </div>
       </div>
 

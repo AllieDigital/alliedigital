@@ -12,15 +12,14 @@
 }
 
 .containercases {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .tour {
     background-image: url("https://i.pinimg.com/originals/2f/77/4a/2f774a581e693b648a334c84dc86505a.gif");
     height: 600px;
-    width: 33.33%;
+    
     text-align:justify;
     padding: 25px;
     background-repeat: no-repeat;
@@ -29,7 +28,7 @@
 .laser {
     background-image: url("https://images.adsttc.com/media/images/5787/e58d/e58e/ceaa/6200/001c/original/Nautilus_TEN___NGO_City_Creative_Network.gif?1468523915");
     height: 600px;
-    width: 33.33%;
+    
     text-align:justify;
     padding: 25px;
     background-repeat: no-repeat;
@@ -38,7 +37,7 @@
 .fotogrametria {
     background-image: url("https://images.adsttc.com/media/images/59de/1e2d/b22e/3829/2f00/0622/original/gif-1.gif?1507728937");
     height: 600px;
-    width: 33.33%;
+   
     text-align:justify;
     padding: 25px;
     background-repeat: no-repeat;

@@ -17,36 +17,78 @@ function Cadastro () {
 
             <div class="card-content">
 
-              <div class="card-content-area">
+              <div className="nome-cadastro">
+                <div class="card-content-area">
 
-                <label for="usuario">Nome</label>
+                  <label for="nome">Nome</label>
 
-                <input type="text" id="usuario" autocomplete="off" />
+                  <input type="text" id="usuario" />
+                </div>
+              </div>
+
+              <div className="endereco">
+
+                <div class="card-content-area">
+
+                  <label for="rua">Cep</label>
+
+                  <input type="text" id="usuario" />
+
+                </div>
+                <div class="card-content-area">
+
+                  <label for="numero">Rua</label>
+
+                  <input type="text" id="usuario" />
+
+                </div>
+                <div class="card-content-area">
+
+                  <label for="cep">Número</label>
+
+                  <input type="text" id="usuario" />
+
+                </div>
+                <div class="card-content-area">
+
+                  <label for="complemento">Complemento</label>
+
+                  <input type="text" id="usuario" />
+
+                </div>
+                <div class="card-content-area">
+
+                  <label for="cidade">Cidade</label>
+
+                  <input type="text" id="usuario" />
+
+                </div>
+                <div class="card-content-area">
+
+                  <label for="estado">Estado</label>
+
+                  <input type="text" id="usuario" />
+
+                </div>
 
               </div>
 
-              <div class="card-content-area">
+              <div className="area-usuario">
+                <div class="card-content-area">
 
-                <label for="password">Endereço</label>
+                  <label for="usuario">Usuário</label>
 
-                <input type="password" id="password" autocomplete="off" />
+                  <input type="text" id="usuario" />
 
-              </div>
+                </div>
 
-              <div class="card-content-area">
+                <div class="card-content-area">
 
-                <label for="password">Usuário</label>
+                  <label for="password">Senha</label>
 
-                <input type="password" id="password" autocomplete="off" />
+                  <input type="password" id="password" autocomplete="off" />
 
-              </div>
-
-              <div class="card-content-area">
-
-                <label for="password">Senha</label>
-
-                <input type="password" id="password" autocomplete="off" />
-
+                </div>
               </div>
 
             </div>

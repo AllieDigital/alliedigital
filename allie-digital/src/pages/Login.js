@@ -41,7 +41,7 @@ function Login () {
 
               <button type="submit" class="submit">Entrar</button>
 
-              <Link to="/cadastro" className="cadastro">Não tem login? Cadastre-se</Link>
+              <Link to="/cadastro" className="cadastro">Não tem conta? Cadastre-se!</Link>
 
             </div>
 
