@@ -56,3 +56,13 @@
     margin-bottom: 50px;
     margin-top: 15px;
 }
+
+.img-equipamento {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img-equipamento:hover {
+    transform: none;
+}

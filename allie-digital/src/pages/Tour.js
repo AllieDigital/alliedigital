@@ -2,6 +2,9 @@ import React from 'react';
 import '../style/Tours.css';
 import Footer from './Footer';
 import Header from './Header';
+import tour1 from '../image/tour-360-01.jpg';
+import tour2 from '../image/tour-360-02.jpg';
+import tour3 from '../image/tour-360-03.jpg';
 
 function Tour () {
   return (
@@ -115,46 +118,52 @@ function Tour () {
             </h3>
           </p>
         </div>
-      
-      <div className="funcionamento">
-        <h2 className="title-funcionamento">
-          Como funciona o Tour Virtual 360º MATTERPORT?
-        </h2>
+        
+        <img src={tour1} alt="equipamento para tour 360 1" className="img-equipamento" />
 
-        <div className="container-cards">
-          <p className="sub-card">
-            <h3 className="title-cards">
-              Orçamento
-            </h3>
-            <h4 className="text-container">
-              O Orçamento é feito a partir das informações enviadas ou após visita ao imóvel.
-            </h4>
-          </p>
-          <p className="sub-card">
-            <h3 className="title-cards">
-              Escaneamento
-            </h3>
-            <h4 className="text-container">
-              Profissionais da Allie vão até o local e realizam a captura de imagens 360 º com a câmera Matterport.
-            </h4>
-          </p>
-          <p className="sub-card">
-            <h3 className="title-cards">
-              Processamento
-            </h3>
-            <h4 className="text-container">
-              Através das informações coletadas será feito o processamento das imagens por nossa equipe.
-            </h4>
-          </p>
-          <p className="sub-card">
-            <h3 className="title-cards">
-              Publicação
-            </h3>
-            <h4 className="text-container">
-              Pronto. Agora você pode publicar seu Tour Virtual 360º em seu site, intranet e até no Google StreetView!
-            </h4>
-          </p>
-        </div>
+        <img src={tour2} alt="equipamento para tour 360 2" className="img-equipamento" />
+
+        <img src={tour3} alt="equipamento para tour 360 3" className="img-equipamento" />
+
+        <div className="funcionamento">
+          <h2 className="title-funcionamento">
+            Como funciona o Tour Virtual 360º MATTERPORT?
+          </h2>
+
+          <div className="container-cards">
+            <p className="sub-card">
+              <h3 className="title-cards">
+                Orçamento
+              </h3>
+              <h4 className="text-container">
+                O Orçamento é feito a partir das informações enviadas ou após visita ao imóvel.
+              </h4>
+            </p>
+            <p className="sub-card">
+              <h3 className="title-cards">
+                Escaneamento
+              </h3>
+              <h4 className="text-container">
+                Profissionais da Allie vão até o local e realizam a captura de imagens 360 º com a câmera Matterport.
+              </h4>
+            </p>
+            <p className="sub-card">
+              <h3 className="title-cards">
+                Processamento
+              </h3>
+              <h4 className="text-container">
+                Através das informações coletadas será feito o processamento das imagens por nossa equipe.
+              </h4>
+            </p>
+            <p className="sub-card">
+              <h3 className="title-cards">
+                Publicação
+              </h3>
+              <h4 className="text-container">
+                Pronto. Agora você pode publicar seu Tour Virtual 360º em seu site, intranet e até no Google StreetView!
+              </h4>
+            </p>
+          </div>
       </div>
 
       </div>
