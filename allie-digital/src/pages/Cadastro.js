@@ -32,7 +32,7 @@ function Cadastro () {
 
                   <label for="rua">Cep</label>
 
-                  <input type="text" id="usuario" />
+                  <input type="number" id="usuario" />
 
                 </div>
                 <div class="card-content-area">
@@ -46,7 +46,7 @@ function Cadastro () {
 
                   <label for="cep">Número</label>
 
-                  <input type="text" id="usuario" />
+                  <input type="number" id="usuario" />
 
                 </div>
                 <div class="card-content-area">
@@ -74,6 +74,14 @@ function Cadastro () {
               </div>
 
               <div className="area-usuario">
+                <div class="card-content-area">
+
+                  <label for="usuario">Email</label>
+
+                  <input type="text" id="usuario" />
+
+                </div>
+
                 <div class="card-content-area">
 
                   <label for="usuario">Usuário</label>

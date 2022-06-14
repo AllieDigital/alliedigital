@@ -32,6 +32,7 @@
 
 .text-container {
     text-align: center;
+    color: grey;
 }
 
 .sub-card {
@@ -46,8 +47,17 @@
     text-align: start;
 }
 
+.first-card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    color: grey;
+}
+
 .title-processo {
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .text-processo {
@@ -55,6 +65,7 @@
     text-align: center;
     margin-bottom: 50px;
     margin-top: 15px;
+    color: grey;
 }
 
 .img-equipamento {
@@ -65,4 +76,20 @@
 
 .img-equipamento:hover {
     transform: none;
+}
+
+.div-processo {
+    background-color: white;
+}
+
+.container-coluna {
+    margin-bottom: 30px;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.text-tour {
+    margin-bottom: 20px;
 }
