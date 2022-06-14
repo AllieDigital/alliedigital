@@ -8,6 +8,7 @@ import tour3 from '../image/tour-360-03.jpg';
 import videoTour from '../image/videotour.mp4';
 
 function Tour () {
+
   return (
     <>
     <Header />
@@ -22,52 +23,63 @@ function Tour () {
           </h1>
         </p>
 
-        <div className="cards-first">
-          <p>
-            <h3 className="title-cards">
+        <ul className="nav">
+          <li>
+            <span>
               O que é o Tour 360º?
-            </h3>
-            <h4 className="text-tour">
-            Utilizando a melhor tecnologia do mercado atualmente, fazemos a captura por fotos de qualquer ambiente, 
-            interno ou externo, em 360º, formando assim uma imagem panorâmica que permite e imersão em um ambiente. 
-            </h4>
-          </p>
+            </span>
+            <ul>
+              <li>
+                <h4 className="text-tour">
+                Utilizando a melhor tecnologia do mercado atualmente, fazemos a captura por fotos de qualquer ambiente, 
+                interno ou externo, em 360º, formando assim uma imagem panorâmica que permite e imersão em um ambiente. 
+                </h4>
+              </li>
+            </ul>
 
-          <p>
-            <h3 className="title-cards">
-              Para que serve?
-            </h3>
-            <h4 className="text-tour">
-              Essas imagens podem ser utilizadas para melhorar a presença da sua empresa no Google, proporcionando uma vista completa dela por dentro na ferramenta StreetView, 
-              assim quando seu cliente lhe encontra pelo mapa, ele pode literalmente ver sua empresa por dentro e conhecer seu ambiente, sem sair de casa. Além disso, 
-              essa tecnologia também é amplamente utilizada na Engenharia e Arquitetura, para fazer levantamentos de obras finalizadas, ou mesmo de reformas, ajudando projetistas a terem as medidas, 
-              aparências, detalhes e dimensões de todo o ambiente sem precisarem estar presentes no local.
-              Outra aplicação que fazemos na Allie, é a criação de Tour Virtual para seu site, como você pode ver em nossa página inicial, 
-              uma experiência interessante e diferenciada que permite você navegar tanto por ambientes reais capturados com nossa câmera Matterport, quanto por ambientes modelados e renderizados por nossa equipe de desenvolvimento.
-            </h4>
-          </p>
+              <span>
+                Para que serve?
+              </span>
+              <ul>
+                <li>
+                  <h4 className="text-tour">
+                    Essas imagens podem ser utilizadas para melhorar a presença da sua empresa no Google, proporcionando uma vista completa dela por dentro na ferramenta StreetView, 
+                    assim quando seu cliente lhe encontra pelo mapa, ele pode literalmente ver sua empresa por dentro e conhecer seu ambiente, sem sair de casa. Além disso, 
+                    essa tecnologia também é amplamente utilizada na Engenharia e Arquitetura, para fazer levantamentos de obras finalizadas, ou mesmo de reformas, ajudando projetistas a terem as medidas, 
+                    aparências, detalhes e dimensões de todo o ambiente sem precisarem estar presentes no local.
+                    Outra aplicação que fazemos na Allie, é a criação de Tour Virtual para seu site, como você pode ver em nossa página inicial, 
+                    uma experiência interessante e diferenciada que permite você navegar tanto por ambientes reais capturados com nossa câmera Matterport, quanto por ambientes modelados e renderizados por nossa equipe de desenvolvimento.
+                  </h4>
+                </li>
+              </ul>
 
-          <p>
-            <h3 className="title-cards">
-              Qual a nossa especialidade?
-            </h3>
-            <h4 className="text-tour">
-              Fazemos a Fotogrametria, técnica captura de imagens 360º, em todo o Brasil, além disso nossa equipe de desenvolvimento é capaz de reproduzir a mesma técnica em ambientes 3D modelados e renderizados no computador, 
-              permitindo também que a mesma técnica seja realizada em ambientes virtuais que ainda estejam na fase de projetos.
-            </h4>
-          </p>
+              <span>
+                Qual a nossa especialidade?
+              </span>
+              <ul>
+                <li>
+                  <h4 className="text-tour">
+                    Fazemos a Fotogrametria, técnica captura de imagens 360º, em todo o Brasil, além disso nossa equipe de desenvolvimento é capaz de reproduzir a mesma técnica em ambientes 3D modelados e renderizados no computador, 
+                    permitindo também que a mesma técnica seja realizada em ambientes virtuais que ainda estejam na fase de projetos.
+                  </h4>
+                </li>
+              </ul>
 
-          <p>
-            <h3 className="title-cards">
-              O que podemos fazer?
-            </h3>
-            <h4 className="text-tour">
-              Apesar de nossa experiência com clientes da área de Engenharia, isso não quer dizer que estamos limitados a isso, muito pelo contrário. Essa experiência nos permite adaptar experiências para qualquer ramo de atividade. 
-              Você pode treinar funcionários sobre procedimentos de uma fábrica, pode demonstrar uma nova sede para investidores, pode engajar seus clientes em uma experiência divertida de jogo dentro do contexto do seu negócio, visualizar uma obra que nem  começou, 
-              testar uma estrada que está sendo planejada, testar múltiplas decorações para um apartamento, entre inúmeras outras aplicações possíveis. O limite é a sua imaginação.
-            </h4>
-          </p>
-        </div>
+              <span>
+                O que podemos fazer?
+              </span>
+              <ul>
+                <li>
+                  <h4 className="text-tour">
+                    Apesar de nossa experiência com clientes da área de Engenharia, isso não quer dizer que estamos limitados a isso, muito pelo contrário. Essa experiência nos permite adaptar experiências para qualquer ramo de atividade. 
+                    Você pode treinar funcionários sobre procedimentos de uma fábrica, pode demonstrar uma nova sede para investidores, pode engajar seus clientes em uma experiência divertida de jogo dentro do contexto do seu negócio, visualizar uma obra que nem  começou, 
+                    testar uma estrada que está sendo planejada, testar múltiplas decorações para um apartamento, entre inúmeras outras aplicações possíveis. O limite é a sua imaginação.
+                  </h4>
+                </li>
+              </ul>
+
+          </li>
+        </ul>
 
         <div className="div-processo">
           <div>
