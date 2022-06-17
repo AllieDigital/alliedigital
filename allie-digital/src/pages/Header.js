@@ -13,6 +13,7 @@ function Header () {
         <ul className="container">
           <li><Link to="/tour">Tour 360°</Link></li>
           <li><Link to="/laser">Laser Scanner</Link></li>
+          <li><Link to="/realidade">Realidade Virtual</Link></li>
           <li><Link to="/fotogrametria">Fotogrametria</Link></li>
           <li><Link to="/login">Login</Link></li>
         </ul>

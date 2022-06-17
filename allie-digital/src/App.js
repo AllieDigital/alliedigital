@@ -8,6 +8,7 @@ import Tour from './pages/Tour';
 import Fotogrametria from './pages/Fotogrametria';
 import Cadastro from './pages/Cadastro';
 import Sobre from './pages/Sobre';
+import Realidade from './pages/Realidade';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/cadastro' element={ <Cadastro /> } />
           <Route path='/tour' element={ <Tour /> } />
           <Route path='/laser' element={ <LaserScanner /> } />
+          <Route path='/realidade' element={ <Realidade /> } />
           <Route path='/fotogrametria' element={ <Fotogrametria /> } />
           <Route path='/sobre' element={ <Sobre /> } />
 
