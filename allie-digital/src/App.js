@@ -5,30 +5,31 @@ import Principal from './pages/Principal';
 import Login from './pages/Login';
 import LaserScanner from './pages/LaserScanner';
 import Tour from './pages/Tour';
-import Fotogrametria from './pages/Fotogrametria';
 import Cadastro from './pages/Cadastro';
 import Sobre from './pages/Sobre';
 import Realidade from './pages/Realidade';
+import Aplicativos from './pages/Aplicativos';
+import Simulacoes from './pages/Simulacoes';
 
 function App() {
-  return (
-    <div className="App">
-      
-        <Routes>
+return (
+<div className="App">
+<Routes>
 
-          <Route path='/' element={ <Principal /> } />
-          <Route path='/login' element={ <Login /> } />
-          <Route path='/cadastro' element={ <Cadastro /> } />
-          <Route path='/tour' element={ <Tour /> } />
-          <Route path='/laser' element={ <LaserScanner /> } />
-          <Route path='/realidade' element={ <Realidade /> } />
-          <Route path='/fotogrametria' element={ <Fotogrametria /> } />
-          <Route path='/sobre' element={ <Sobre /> } />
+<Route path='/' element={ <Principal /> } />
+<Route path='/login' element={ <Login /> } />
+<Route path='/cadastro' element={ <Cadastro /> } />
+<Route path='/tour' element={ <Tour /> } />
+<Route path='/laser' element={ <LaserScanner /> } />
+<Route path='/realidade' element={ <Realidade /> } />
+<Route path='/aplicativos' element={ <Aplicativos /> } />
+<Route path='/simulacoes' element={ <Simulacoes /> } />
+<Route path='/sobre' element={ <Sobre /> } />
 
-        </Routes>
+</Routes>
 
-    </div>
-  );
+</div>
+);
 }
 
 export default App;

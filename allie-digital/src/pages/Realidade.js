@@ -6,6 +6,7 @@ import VR4 from '../image/VR-4.mp4';
 import VR5 from '../image/VR-5.mp4';
 import Footer from './Footer';
 import Header from './Header';
+import '../style/Realidades.css';
 
 function Realidade () {
   return (
