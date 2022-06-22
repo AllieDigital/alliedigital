@@ -133,43 +133,48 @@ return (
           </div>
         </div>
 
-        <p/>
-        <h4>
-          Caso de Sucesso
-        </h4>
-        <p/>
-        <h2>
-          Painel IBR Engenharia
-        </h2>
-        <p/>
+        <p className="caso-sucesso">
+          <h4>
+            Caso de Sucesso
+          </h4>
+          <h2>
+            Painel IBR Engenharia
+          </h2>
+        </p>
 
-        <h4>
-          A IBR Engenharia contou com a Allie para a criação de seu painel para uso interno, 
-          que permite aos engenheiros, arquitetos e projetistas cadastrarem todos os aspectos de cada projeto, 
-          inclusive as informações BIM, documentações, assinaturas, atas, e muito mais. Uma das principais funções do painel 
-          também é atuar na Inteligência do Negócio, dando aos gestores e project managers uma visão ampla de cada aspecto dos projetos, 
-          com gráficos, métricas e registros das atividades de todos os colaboradores. Uma ferramenta completa e fundamental, que faz parte do dia-a-dia da IBR.
-        </h4>
+        <p className="sucesso-text">
+          <h4 className="first-card">
+            A IBR Engenharia contou com a Allie para a criação de seu painel para uso interno, 
+            que permite aos engenheiros, arquitetos e projetistas cadastrarem todos os aspectos de cada projeto, 
+            inclusive as informações BIM, documentações, assinaturas, atas, e muito mais. Uma das principais funções do painel 
+            também é atuar na Inteligência do Negócio, dando aos gestores e project managers uma visão ampla de cada aspecto dos projetos, 
+            com gráficos, métricas e registros das atividades de todos os colaboradores. Uma ferramenta completa e fundamental, que faz parte do dia-a-dia da IBR.
+          </h4>
 
-        <h3>
-          Sob Medida
-        </h3>
-        <h4>
-          O painel IBR foi feito levando em consideração o fluxo de trabalho das equipes, as metodologias utilizadas nos projetos, 
-          entre muitos outros fatores, tornando-o especialmente útil e fácil de utilizar pelos colaboradores da IBR Engenharia.
-        </h4>
+          <p className="cards-first">
+            <h3 className="title-cards">
+              Sob Medida
+            </h3>
+            <h4 className="text-grey">
+              O painel IBR foi feito levando em consideração o fluxo de trabalho das equipes, as metodologias utilizadas nos projetos, 
+              entre muitos outros fatores, tornando-o especialmente útil e fácil de utilizar pelos colaboradores da IBR Engenharia.
+            </h4>
+          </p>
 
-        <h3>
-          Incremental
-        </h3>
-        <h4>
-          Mesmo após sua implementação, o app continuou a ser atualizado, de acordo com os feedbacks das equipes e gestores, 
-          adaptando-se conforme evoluia. Esse desenvolvimento contínuo à pedido da própria empresa permitiu que a aplicação crescesse conforme as necessidades.
-        </h4>
+          <p className="cards-first">
+            <h3 className="title-cards">
+              Incremental
+            </h3>
+            <h4 className="text-grey">
+              Mesmo após sua implementação, o app continuou a ser atualizado, de acordo com os feedbacks das equipes e gestores, 
+              adaptando-se conforme evoluia. Esse desenvolvimento contínuo à pedido da própria empresa permitiu que a aplicação crescesse conforme as necessidades.
+            </h4>
+          </p>
+        </p>
 
         <img src={ aplicativos1 } alt="imagem com o painel do aplicativo" className="img-painel" />
 
-        <div>
+        <div className="experimente">
           <h1 className="title-processo">
             Experimente
           </h1>

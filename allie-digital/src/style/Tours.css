@@ -1,97 +1,97 @@
 .title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 90px;
 }
 
 .container-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
 }
 
 .funcionamento {
-    background-color: white;
-    padding: 40px;
+  background-color: white;
+  padding: 40px;
 }
 
 .title-funcionamento {
-    margin-top: 15px;
-    margin-bottom: 40px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 .title-cards {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .sub-card:hover {
-    border-radius: 10px;
-    background-image: linear-gradient(#d8d8c0, #1693a5);
+  border-radius: 10px;
+  background-image: linear-gradient(#d8d8c0, #1693a5);
 }
 
 .text-container {
-    text-align: center;
-    color: grey;
+  text-align: center;
+  color: grey;
 }
 
 .sub-card {
-    padding: 40px;
+  padding: 40px;
 }
 
 .cards-first {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: start;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
 }
 
 .first-card {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: start;
-    color: grey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  color: grey;
 }
 
 .title-processo {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .text-processo {
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 15px;
-    color: grey;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  color: grey;
 }
 
 .img-equipamento {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .img-equipamento:hover {
-    transform: none;
+  transform: none;
 }
 
 .div-processo {
-    background-color: white;
+  background-color: white;
 }
 
 .container-coluna {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .text-grey {
-    color: grey;
+  color: grey;
 }
 
 .text-tour {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 

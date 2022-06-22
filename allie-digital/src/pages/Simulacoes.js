@@ -135,7 +135,7 @@ function Simulacoes () {
         </div>
 
 
-        <div>
+        <div className="experimente">
           <h1 className="title-processo">
             Experimente
           </h1>
