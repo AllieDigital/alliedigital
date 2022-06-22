@@ -12,68 +12,52 @@ function LaserScanner () {
 
       <Header />
 
-      <h1 className="title">
-        Levantamento cadastral
-        <p/>
-        com Laser Scanner
-      </h1>
-      <h2>
-        Nuvem de pontos
-      </h2>
+      <div className="title">
+        <h1>
+          Levantamento cadastral
+          <p/>
+          com Laser Scanner
+        </h1>
+        <h2>
+          Nuvem de pontos
+        </h2>
+      </div>
 
-      <ul className="nav">
-          <li>
-            <span>
-              O que é a Nuvem de Pontos?
-            </span>
-            <ul>
-              <li>
-                <h4 className="text-tour">
-                A nuvem de pontos recria objetos e estruturas referenciadas a partir de uma grande coleção de pontos. Esses pontos são obtidos de uma captura realizada com um laser scanner 3D. 
-                Quando esses pontos são anexados a um software é possível utilizá-los como base para o seu desenho ou modelo 3D.
-                </h4>
-              </li>
-            </ul>
+      <div className="container-coluna">
 
-              <span>
-                Para que serve?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                  Entre seus usos mais comuns temos os levantamentos topográfico de regiões, mapeamentos geológicos, captação de estruturas para registro de patrimônio histórico, 
-                  monitoramento de estruturas para identificar desgastes e até para fazer o mapeamento da execução das instalações em edifícios residenciais e comerciais, para se evitar perder tempo fazendo as-built. 
-                  Ou seja, aplicações que podem ser utilizadas em diferentes estágios de uma obra, seja ela feita do zero ou uma reforma.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          O que é a Nuvem de Pontos?
+        </h3>
+        <h4 className="cards-first">
+          A nuvem de pontos recria objetos e estruturas referenciadas a partir de uma grande coleção de pontos. Esses pontos são obtidos de uma captura realizada com um laser scanner 3D. 
+          Quando esses pontos são anexados a um software é possível utilizá-los como base para o seu desenho ou modelo 3D.
+        </h4>
 
-              <span>
-                Qual a nossa especialidade?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                  Com equipamentos de última geração e knowhow obtido graças às nossas parcerias com a IBR Engenharia e outras empresas do ramo, 
-                  temos tudo que você precisa para uma captura perfeita de nuvens de pontos que irá auxiliar muito o desenvolvimento de seus projetos. 
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          Para que serve?
+        </h3>
+        <h4 className="cards-first">
+          Entre seus usos mais comuns temos os levantamentos topográfico de regiões, mapeamentos geológicos, captação de estruturas para registro de patrimônio histórico, 
+          monitoramento de estruturas para identificar desgastes e até para fazer o mapeamento da execução das instalações em edifícios residenciais e comerciais, para se evitar perder tempo fazendo as-built. 
+          Ou seja, aplicações que podem ser utilizadas em diferentes estágios de uma obra, seja ela feita do zero ou uma reforma.
+        </h4>
 
-              <span>
-                O que podemos fazer?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                  Realizamos a captura das nuvens de pontos com nosso laser scanner 3D e exportamos para a utilização de sua equipe, ou terceiros, 
-                  para a construção de modelos 3D precisos e baseados na realidade.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          Qual a nossa especialidade?
+        </h3>
+        <h4 className="cards-first">
+          Com equipamentos de última geração e knowhow obtido graças às nossas parcerias com a IBR Engenharia e outras empresas do ramo, 
+          temos tudo que você precisa para uma captura perfeita de nuvens de pontos que irá auxiliar muito o desenvolvimento de seus projetos. 
+        </h4>
 
-          </li>
-        </ul>
+        <h3 className="title-cards">
+          O que podemos fazer?
+        </h3>
+        <h4 className="cards-first">
+          Realizamos a captura das nuvens de pontos com nosso laser scanner 3D e exportamos para a utilização de sua equipe, ou terceiros, 
+          para a construção de modelos 3D precisos e baseados na realidade.
+        </h4>
+      </div>
 
         <div className="div-processo">
           <div>

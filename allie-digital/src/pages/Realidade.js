@@ -18,61 +18,43 @@ function Realidade () {
         Realidade Virtual
       </h1>
 
-      <ul className="nav">
-          <li>
-            <span>
-              O que é VR?
-            </span>
-            <ul>
-              <li>
-                <h4 className="text-tour">
-                  A sigla para Virtual Reality, ou  em português Realidade Virtual se refere a experiências virtuais onde o usuário utiliza um dispositivo especial, 
-                  normalmente um óculos, que o coloca em um ambiente digital de alta imersão e proporciona experiências de interação diferenciadas e divertidas.
-                </h4>
-              </li>
-            </ul>
+      <div className="container-coluna">
 
-              <span>
-                Para que serve?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    As aplicações práticas em VR são inúmeras. A mais obvia e comum delas, é no entretenimento, com jogos, brincadeiras e interações simples com ambientes virtuais. 
-                    Porém, há também uma vertente de desenvolvimento voltada a encontrar aplicações práticas para VR, que já podem ser vistas na Engenharia, Arquitetura, Eletrônica, 
-                    Medicina, Psicologia e muitos outros ramos que estão acordando para o uso da tecnologia de uma forma mais profunda e imersiva.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          O que é VR?
+        </h3>
+        <h4 className="cards-first">
+          A sigla para Virtual Reality, ou  em português Realidade Virtual se refere a experiências virtuais onde o usuário utiliza um dispositivo especial, 
+          normalmente um óculos, que o coloca em um ambiente digital de alta imersão e proporciona experiências de interação diferenciadas e divertidas.
+        </h4>
 
-              <span>
-                Qual a nossa especialidade?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    Aqui na Allie nossas principais experiências com VR foram criadas no campo da engenharia, como visualização arquitetônica e visualização de projetos em construção, 
-                    ajudando nossos clientes a visualizarem seus projetos de forma realista, com base em projetos reais produzidos por engenheiros e arquitetos, dando a eles insights 
-                    poderosos antes mesmo de iniciar as obras de seus empreendimentos, evitando assim alterações ou correções durante a realização das obras, o que normalmente acarreta em custos adicionais, atrasos, entre outros problemas.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          Para que serve?
+        </h3>
+        <h4 className="cards-first">
+          As aplicações práticas em VR são inúmeras. A mais obvia e comum delas, é no entretenimento, com jogos, brincadeiras e interações simples com ambientes virtuais. 
+          Porém, há também uma vertente de desenvolvimento voltada a encontrar aplicações práticas para VR, que já podem ser vistas na Engenharia, Arquitetura, Eletrônica, 
+          Medicina, Psicologia e muitos outros ramos que estão acordando para o uso da tecnologia de uma forma mais profunda e imersiva.
+        </h4>
 
-              <span>
-                O que podemos fazer?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    Apesar de nossa prática e conhecimento no ramo da Engenharia, trabalhando lado a lado com grandes parceiros como a IBR Engenharia, 
-                    as aplicações em VR podem ser inúmeras e nossa equipe está habilitada a criar e desenvolver experiências em realidade virtual para qualquer ramo de atuação, de forma totalmente personalizada e de acordo com as suas necessidades e objetivos. 
-                    Impressione seus clientes com experiências interativas em eventos, estandes, ou ambientes especialmente preparados, ou maximize o potencial de sua equipe com ferramentas personalizadas de interação virtual.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          Qual a nossa especialidade?
+        </h3>
+        <h4 className="cards-first">
+          Aqui na Allie nossas principais experiências com VR foram criadas no campo da engenharia, como visualização arquitetônica e visualização de projetos em construção, 
+          ajudando nossos clientes a visualizarem seus projetos de forma realista, com base em projetos reais produzidos por engenheiros e arquitetos, dando a eles insights 
+          poderosos antes mesmo de iniciar as obras de seus empreendimentos, evitando assim alterações ou correções durante a realização das obras, o que normalmente acarreta em custos adicionais, atrasos, entre outros problemas.
+        </h4>
 
-          </li>
-        </ul>
+        <h3 className="title-cards">
+          O que podemos fazer?
+        </h3>
+        <h4 className="cards-first">
+          Apesar de nossa prática e conhecimento no ramo da Engenharia, trabalhando lado a lado com grandes parceiros como a IBR Engenharia, 
+          as aplicações em VR podem ser inúmeras e nossa equipe está habilitada a criar e desenvolver experiências em realidade virtual para qualquer ramo de atuação, de forma totalmente personalizada e de acordo com as suas necessidades e objetivos. 
+          Impressione seus clientes com experiências interativas em eventos, estandes, ou ambientes especialmente preparados, ou maximize o potencial de sua equipe com ferramentas personalizadas de interação virtual.
+        </h4>
+      </div>
 
         <div className="div-processo">
           <div>
