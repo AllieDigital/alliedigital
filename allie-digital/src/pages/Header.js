@@ -14,7 +14,8 @@ function Header () {
           <li><Link to="/tour">Tour 360°</Link></li>
           <li><Link to="/laser">Laser Scanner</Link></li>
           <li><Link to="/realidade">Realidade Virtual</Link></li>
-          <li><Link to="/fotogrametria">Fotogrametria</Link></li>
+          <li><Link to="/simulacoes">Simulações</Link></li>
+          <li><Link to="/aplicativos">Aplicativos</Link></li>
           <li><Link to="/login">Login</Link></li>
         </ul>
       </nav>
