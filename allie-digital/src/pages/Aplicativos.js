@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
-import '../style/Simulacoes.css';
-import aplicativos1 from '../style/aplicativos1.png';
+import '../style/Aplicativos.css';
+import aplicativos1 from '../image/aplicativos1.png';
 
-function Simulacoes () {
+function Aplicativos () {
 return (
     <div>
 
@@ -167,7 +167,7 @@ return (
           adaptando-se conforme evoluia. Esse desenvolvimento contínuo à pedido da própria empresa permitiu que a aplicação crescesse conforme as necessidades.
         </h4>
 
-        <img src={aplicativos1} alt="imagem com o painel do aplicativo" className="img-painel" />
+        <img src={ aplicativos1 } alt="imagem com o painel do aplicativo" className="img-painel" />
 
         <div>
           <h1 className="title-processo">
@@ -185,4 +185,4 @@ return (
   );
 }
 
-export default Simulacoes;
+export default Aplicativos;
