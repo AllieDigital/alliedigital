@@ -14,64 +14,48 @@ return (
         Aplicativos
       </h1>
 
-      <ul className="nav">
-          <li>
-            <span>
-              O que são Aplicativos?
-            </span>
-            <ul>
-              <li>
-                <h4 className="text-tour">
-                  Hoje em dia é imprescindível estar presente nos dispositivos móveis de seu público. 
-                  Aplicativos são programas feitos especialmente para esses dispositivos e podem cumprir diversos propósitos, 
-                  que veremos nos tópicos a seguir.
-                </h4>
-              </li>
-            </ul>
+      <div className="container-coluna">
 
-              <span>
-                Para que serve?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    Muitas empresas quando pensam em aplicativos, pensam na sua forma mais básica: marketing. 
-                    Usar aplicativos para expandir sua oferta de um produto ou serviço, com mais facilidade de acesso e praticidade, 
-                    hoje, é o básico que toda empresa deveria fazer. Porém há potencial para muito mais que isso. 
-                    Você pode ter aplicativos para uso interno na sua empresa, com ferramentas de produtividade exclusivas e feitas sob medida para o seu estilo de gestão. 
-                    Você pode ter aplicativos para se relacionar com fornecedores e parceiros, entre muitas outras formas de utilizá-los.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          O que são Aplicativos?
+        </h3>
+        <h4 className="cards-first">
+          Hoje em dia é imprescindível estar presente nos dispositivos móveis de seu público. 
+          Aplicativos são programas feitos especialmente para esses dispositivos e podem cumprir diversos propósitos, 
+          que veremos nos tópicos a seguir.
+        </h4>
 
-              <span>
-                Qual a nossa especialidade?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    Na Allie, nosso foco é na criação de ferramentas que potencializem os talentos de sua empresa, 
-                    de acordo com suas peculiaridades, necessidades e objetivos.
-                  </h4>
-                </li>
-              </ul>
 
-              <span>
-                O que podemos fazer?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    A criação de aplicativos leva em consideração especialmente a disciplina de UX ou Experiência do Usuário, 
-                    que leva em consideração o design, as funcionalidades, a acessibilidade, entre muitos outros fatores para dar ao usuário final uma experiência rica e transformadora. 
-                    Aplicativos de produtividade, marketing, relacionamento e aprendizagem são as aplicações mais comuns para essa tecnologia, 
-                    porém estamos prontos para ouvir suas ideias e transformá-las em realidade.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          Para que serve?
+        </h3>
+        <h4 className="cards-first">
+          Muitas empresas quando pensam em aplicativos, pensam na sua forma mais básica: marketing. 
+          Usar aplicativos para expandir sua oferta de um produto ou serviço, com mais facilidade de acesso e praticidade, 
+          hoje, é o básico que toda empresa deveria fazer. Porém há potencial para muito mais que isso. 
+          Você pode ter aplicativos para uso interno na sua empresa, com ferramentas de produtividade exclusivas e feitas sob medida para o seu estilo de gestão. 
+          Você pode ter aplicativos para se relacionar com fornecedores e parceiros, entre muitas outras formas de utilizá-los.
+        </h4>
 
-          </li>
-        </ul>
+        <h3 className="title-cards">
+          Qual a nossa especialidade?
+        </h3>
+        <h4 className="cards-first">
+          Na Allie, nosso foco é na criação de ferramentas que potencializem os talentos de sua empresa, 
+          de acordo com suas peculiaridades, necessidades e objetivos.
+        </h4>
+
+        <h3 className="title-cards">
+          O que podemos fazer?
+        </h3>
+        <h4 className="cards-first">
+          A criação de aplicativos leva em consideração especialmente a disciplina de UX ou Experiência do Usuário, 
+          que leva em consideração o design, as funcionalidades, a acessibilidade, entre muitos outros fatores para dar ao usuário final uma experiência rica e transformadora. 
+          Aplicativos de produtividade, marketing, relacionamento e aprendizagem são as aplicações mais comuns para essa tecnologia, 
+          porém estamos prontos para ouvir suas ideias e transformá-las em realidade.
+        </h4>
+
+      </div>
 
         <div className="div-processo">
           <div>

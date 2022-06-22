@@ -13,66 +13,49 @@ function Simulacoes () {
         Simulações e Treinamentos
       </h1>
 
-      <ul className="nav">
-          <li>
-            <span>
-              O que são Simulações?
-            </span>
-            <ul>
-              <li>
-                <h4 className="text-tour">
-                  Caminhe por um prédio que ainda não foi construído, dirija por projetos de urbanização que ainda estão sendo planejados, 
-                  instrua colaboradores sobre procedimentos de emergência, tudo como se fosse um jogo de videogame, fácil e lúdico de utilizar.
-                </h4>
-              </li>
-            </ul>
+      <div className="container-coluna">
 
-              <span>
-                Para que serve?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    As simulações podem ser usadas de diversas maneiras diferentes, elas servem para que o usuário possa absorver 
-                    informações de forma lúdica, com menores custos e riscos. 
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          O que são Simulações?
+        </h3>
+        <h4 className="cards-first">
+          Caminhe por um prédio que ainda não foi construído, dirija por projetos de urbanização que ainda estão sendo planejados, 
+          instrua colaboradores sobre procedimentos de emergência, tudo como se fosse um jogo de videogame, fácil e lúdico de utilizar.
+        </h4>
 
-              <span>
-                Qual a nossa especialidade?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    Temos experiência na criação de simulações para o ramo da Engenharia, especialmente Engenharia Rodoviária, 
-                    criando simulações de estradas, loteamentos e obras, onde o cliente pode pilotar veículos e andar com um 
-                    personagem em um ambiente virtual geolocalizado, como se fosse um videogame, podendo assim perceber com 
-                    exatidão como será a experiência das pessoas ao interagir com seus empreendimentos no mundo real, 
-                    quando estiverem prontos. Isso é importante para que eles possam tomar decisões sobre a composição desses projetos, 
-                    algo que antes era difícil de ser visualizado, apenas com plantas e projetos que somente engenheiros experientes eram capazes de compreender.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          Para que serve?
+        </h3>
+        <h4 className="cards-first">
+          As simulações podem ser usadas de diversas maneiras diferentes, elas servem para que o usuário possa absorver 
+          informações de forma lúdica, com menores custos e riscos. 
+        </h4>
 
-              <span>
-                O que podemos fazer?
-              </span>
-              <ul>
-                <li>
-                  <h4 className="text-tour">
-                    Apesar de nossa experiência com clientes da área de Engenharia, isso não quer dizer que estamos limitados a isso, 
-                    muito pelo contrário. Essa experiência nos permite adaptar experiências para qualquer ramo de atividade. 
-                    Você pode treinar funcionários sobre procedimentos de uma fábrica, pode demonstrar uma nova sede para investidores, 
-                    pode engajar seus clientes em uma experiência divertida de jogo dentro do contexto do seu negócio, 
-                    visualizar uma obra que nem  começou, testar uma estrada que está sendo planejada, testar múltiplas decorações para um apartamento, 
-                    entre inúmeras outras aplicações possíveis. O limite é a sua imaginação.
-                  </h4>
-                </li>
-              </ul>
+        <h3 className="title-cards">
+          Qual a nossa especialidade?
+        </h3>
+        <h4 className="cards-first">
+          Temos experiência na criação de simulações para o ramo da Engenharia, especialmente Engenharia Rodoviária, 
+          criando simulações de estradas, loteamentos e obras, onde o cliente pode pilotar veículos e andar com um 
+          personagem em um ambiente virtual geolocalizado, como se fosse um videogame, podendo assim perceber com 
+          exatidão como será a experiência das pessoas ao interagir com seus empreendimentos no mundo real, 
+          quando estiverem prontos. Isso é importante para que eles possam tomar decisões sobre a composição desses projetos, 
+          algo que antes era difícil de ser visualizado, apenas com plantas e projetos que somente engenheiros experientes eram capazes de compreender.
+        </h4>
 
-          </li>
-        </ul>
+        <h3 className="title-cards">
+          O que podemos fazer?
+        </h3>
+        <h4 className="cards-first">
+          Apesar de nossa experiência com clientes da área de Engenharia, isso não quer dizer que estamos limitados a isso, 
+          muito pelo contrário. Essa experiência nos permite adaptar experiências para qualquer ramo de atividade. 
+          Você pode treinar funcionários sobre procedimentos de uma fábrica, pode demonstrar uma nova sede para investidores, 
+          pode engajar seus clientes em uma experiência divertida de jogo dentro do contexto do seu negócio, 
+          visualizar uma obra que nem  começou, testar uma estrada que está sendo planejada, testar múltiplas decorações para um apartamento, 
+          entre inúmeras outras aplicações possíveis. O limite é a sua imaginação.
+        </h4>
+
+      </div>
 
         <div className="div-processo">
           <div>
