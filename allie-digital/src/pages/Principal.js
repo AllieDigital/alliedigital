@@ -47,17 +47,46 @@ function Principal () {
 
         <div className="fotogrametria">
           <h1>
-            Fotogrametria
+            Realidade Virtual
           </h1>
           <h2>
             descrição
           </h2>
-          <Link to="/fotogrametria">
+          <Link to="/realidade">
             <button type="button">
               Descubra
             </button>
           </Link>
         </div>
+
+        <div className="laser">
+          <h1>
+            Simulações e Treinamento
+          </h1>
+          <h2>
+            descrição
+          </h2>
+          <Link to="/simulacoes">
+            <button type="button">
+              Descubra
+            </button>
+          </Link>
+        </div>
+
+        <div className="laser">
+          <h1>
+            Aplicativos
+          </h1>
+          <h2>
+            descrição
+          </h2>
+          <Link to="/aplicativos">
+            <button type="button">
+              Descubra
+            </button>
+          </Link>
+        </div>
+
       </div>
 
       <div>
