@@ -5,6 +5,7 @@ import Header from './Header';
 import { Link } from 'react-router-dom';
 import principal2 from '../image/principal2.png';
 import principal3 from '../image/principal3.png';
+import videoAllie from '../image/WhatsVideo.mp4';
 
 function Principal () {
   return (
@@ -16,6 +17,7 @@ function Principal () {
           <h1>Allie Digital</h1>
           <h2>Sua solução e inovação digital</h2>
         </div>
+        <video src={ videoAllie } type="video/mp4" controls autoplay loop width="90%" className="video1"></video>
       </div>
 
       <div className="containercases">
@@ -93,6 +95,10 @@ function Principal () {
         </div>
 
       </div>
+
+      <h2 className="empresa-especializada">
+        EMPRESA ESPECIALIZADA EM INOVAÇÃO DIGITAL
+      </h2>
 
       <img src={ principal2 } alt="imagem de mulher com oculos VR" className="img-principal2" />
       

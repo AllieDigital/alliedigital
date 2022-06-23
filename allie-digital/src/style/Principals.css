@@ -1,47 +1,60 @@
 .primeiraimg {
-    background-image: url("https://cdn.pixabay.com/photo/2022/05/17/21/46/metaverse-7203825_960_720.jpg");
-    height: 600px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  top: 0;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  background: url("../image/WhatsVideo.mp4") no-repeat;
+  background-size: cover; 
 }
 
 .primeira-descricao {
-    text-align: justify;
-    color: white;
-    padding: 130px;
+  text-align: justify;
+  color: white;
+  padding: 130px;
+}
+
+.primeira-descricao:hover {
+  animation: mymove 5s;
+}
+
+@keyframes mymove {
+  20% {text-indent: 50px;}
 }
 
 .containercases {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .tour {
-    background-image: url("../image/tour-360-01.jpg");
-    height: 600px;
-    text-align:justify;
-    padding: 25px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../image/tour-360-01.jpg");
+  height: 600px;
+  text-align:justify;
+  padding: 25px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .laser {
-    background-image: url("../image/laser1.jpeg");
-    height: 600px;
-    text-align:justify;
-    padding: 25px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../image/laser1.jpeg");
+  height: 600px;
+  text-align:justify;
+  padding: 25px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .realidade {
-    background-image: url("../image/realidadevirtual1.jpeg");
-    height: 600px;
-    text-align:justify;
-    padding: 25px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../image/realidadevirtual1.jpeg");
+  height: 600px;
+  text-align:justify;
+  padding: 25px;
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .simulacoes {
@@ -49,6 +62,7 @@
   height: 600px;
   text-align:justify;
   padding: 25px;
+  margin-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -58,28 +72,35 @@
   height: 600px;
   text-align:justify;
   padding: 25px;
+  margin-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 button {
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-    transition: 500ms;
-    width: 100px;
-    height: 30px;
-    margin-top: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transition: 500ms;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
 }
 
 button:hover {
-    transform: scale(1.2);
-    background-color: white;
-    color: black;
+  transform: scale(1.2);
+  background-color: white;
+  color: black;
+}
+
+.empresa-especializada {
+  color: white;
+  padding: 30px;
 }
 
 .img-principal2 {
   width: 100%;
+  margin-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -107,6 +128,7 @@ button:hover {
 
 .img-principal3 {
   width: 100%;
+  margin-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
