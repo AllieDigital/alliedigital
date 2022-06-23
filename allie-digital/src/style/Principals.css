@@ -103,6 +103,7 @@ button:hover {
   margin-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .img-principal2:hover {
@@ -131,6 +132,7 @@ button:hover {
   margin-top: 20px;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 30px;
 }
 
 .img-principal3:hover {
@@ -153,4 +155,5 @@ button:hover {
 .sub-card:hover {
   border-radius: 10px;
   background-image: linear-gradient(#d8d8c0, #1693a5);
+  color: black;
 }
