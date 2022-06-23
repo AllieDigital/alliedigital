@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import '../style/Simulacoes.css';
+import videoSimulacao from '../image/simuladores.mp4';
 
 function Simulacoes () {
   return (
@@ -117,6 +118,7 @@ function Simulacoes () {
           </div>
         </div>
 
+        <video src={ videoSimulacao } type="video/mp4" controls autoplay="autoplay" width="80%"></video>
 
         <div className="experimente">
           <h1 className="title-processo">
