@@ -14,31 +14,52 @@
 
 .containercases {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
 }
 
 .tour {
-    background-image: url("https://i.pinimg.com/originals/2f/77/4a/2f774a581e693b648a334c84dc86505a.gif");
+    background-image: url("../image/tour-360-01.jpg");
     height: 600px;
     text-align:justify;
     padding: 25px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .laser {
-    background-image: url("https://images.adsttc.com/media/images/5787/e58d/e58e/ceaa/6200/001c/original/Nautilus_TEN___NGO_City_Creative_Network.gif?1468523915");
+    background-image: url("../image/laser1.jpeg");
     height: 600px;
     text-align:justify;
     padding: 25px;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.fotogrametria {
-    background-image: url("https://images.adsttc.com/media/images/59de/1e2d/b22e/3829/2f00/0622/original/gif-1.gif?1507728937");
+.realidade {
+    background-image: url("../image/realidadevirtual1.jpeg");
     height: 600px;
     text-align:justify;
     padding: 25px;
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.simulacoes {
+  background-image: url("../image/simulacoesetreinamento1.jpg");
+  height: 600px;
+  text-align:justify;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aplicativos {
+  background-image: url("../image/aplicativos1.jpg");
+  height: 600px;
+  text-align:justify;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 button {
@@ -55,4 +76,59 @@ button:hover {
     transform: scale(1.2);
     background-color: white;
     color: black;
+}
+
+.img-principal2 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-principal2:hover {
+  transform: none;
+}
+
+.container-somos {
+  text-align: justify;
+}
+
+.title-somos {
+  padding: 30px;
+}
+
+.text-somos1 {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.somos {
+  display: flex;
+}
+
+.img-principal3 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-principal3:hover {
+  transform: none;
+}
+
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.text-container {
+  text-align: center;
+  color: black;
+}
+
+.sub-card:hover {
+  border-radius: 10px;
+  background-image: linear-gradient(#d8d8c0, #1693a5);
 }
