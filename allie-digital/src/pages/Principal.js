@@ -160,14 +160,15 @@ function Principal () {
             dedicado e altamente especializado, composto por engenheiros, designers e desenvolvedores apaixonados por tecnologia.
           </h4>
         </div>
-
+        
         <img src={ principal3 } alt="imagem de homem com oculos VR" className="img-principal3" />
+    
       </div>
 
       <object>
         <param name="movie" value="https://youtu.be/56SJXNxLPPQ"></param>
         <param name="allowFullScreen" value="true"></param>
-        <embed src="https://youtu.be/56SJXNxLPPQ" width="80%" height="550px" className="video-principal" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" />
+        <embed src="https://youtu.be/56SJXNxLPPQ" width="80%" height="550px" className="video-principal" autoplay="autoplay" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" />
       </object>
 
       <div className="container-cards">
