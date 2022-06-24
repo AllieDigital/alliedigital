@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -25,6 +26,8 @@ nav {
   justify-content: right;
   display: flex;
   flex-direction: start;
+  position: fixed;
+  width: 100%;
 }
 
 nav > ul > li {
@@ -42,10 +45,6 @@ nav > ul > li > a {
   transition: all .3s ease;
 }
 
-nav > ul > li:hover > a {
-  color: #444; 
-  border-bottom: 3px solid #000000;
-}
 
 img:hover {
   transform: scale(1.6);
@@ -58,6 +57,7 @@ img:hover {
 
 header {
   position: fixed;
+  position: absolute;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
 }
