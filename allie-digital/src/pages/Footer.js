@@ -29,7 +29,7 @@ function Footer () {
       </div>
 
       <div>
-        <p>
+        <p className="title-endereco">
           Allie Digital
         </p>
         <p>
@@ -44,14 +44,14 @@ function Footer () {
         <p>
           CEP 88020-302
         </p>
-        <p>
+        <p className="final-endereco">
           Fone: (048) 3036-2704
         </p>
       </div>
 
       <div className="icones">
         <p>
-          <a href="https://wa.me/5548988320291"><img src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536445.png?token=exp=1654615861~hmac=818472dfbf3c0802764739dbb99df61d" alt="icone whatsapp" /></a>
+          <a href="https://wa.me/5548988320291"><img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/whatsapp_logo_icon_189219.png" alt="icone whatsapp" /></a>
        
           <a href="https://www.instagram.com/ibr.engenharia/"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="icone instagram" /></a>
         </p>

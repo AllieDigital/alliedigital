@@ -28,7 +28,7 @@ function Tour () {
         <h3 className="title-cards">
           O que é o Tour 360º?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Utilizando a melhor tecnologia do mercado atualmente, fazemos a captura por fotos de qualquer ambiente, 
           interno ou externo, em 360º, formando assim uma imagem panorâmica que permite e imersão em um ambiente. 
         </h4>
@@ -36,7 +36,7 @@ function Tour () {
         <h3 className="title-cards">
           Para que serve?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Essas imagens podem ser utilizadas para melhorar a presença da sua empresa no Google, proporcionando uma vista completa dela por dentro na ferramenta StreetView, 
           assim quando seu cliente lhe encontra pelo mapa, ele pode literalmente ver sua empresa por dentro e conhecer seu ambiente, sem sair de casa. Além disso, 
           essa tecnologia também é amplamente utilizada na Engenharia e Arquitetura, para fazer levantamentos de obras finalizadas, ou mesmo de reformas, ajudando projetistas a terem as medidas, 
@@ -48,7 +48,7 @@ function Tour () {
         <h3 className="title-cards">
           Qual a nossa especialidade?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Fazemos a Fotogrametria, técnica captura de imagens 360º, em todo o Brasil, além disso nossa equipe de desenvolvimento é capaz de reproduzir a mesma técnica em ambientes 3D modelados e renderizados no computador, 
           permitindo também que a mesma técnica seja realizada em ambientes virtuais que ainda estejam na fase de projetos.
         </h4>
@@ -56,7 +56,7 @@ function Tour () {
         <h3 className="title-cards">
           O que podemos fazer?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Apesar de nossa experiência com clientes da área de Engenharia, isso não quer dizer que estamos limitados a isso, muito pelo contrário. Essa experiência nos permite adaptar experiências para qualquer ramo de atividade. 
           Você pode treinar funcionários sobre procedimentos de uma fábrica, pode demonstrar uma nova sede para investidores, pode engajar seus clientes em uma experiência divertida de jogo dentro do contexto do seu negócio, visualizar uma obra que nem  começou, 
           testar uma estrada que está sendo planejada, testar múltiplas decorações para um apartamento, entre inúmeras outras aplicações possíveis. O limite é a sua imaginação.
@@ -136,7 +136,7 @@ function Tour () {
               <h3 className="title-cards">
                 Orçamento
               </h3>
-              <h4 className="text-container">
+              <h4>
                 O Orçamento é feito a partir das informações enviadas ou após visita ao imóvel.
               </h4>
             </p>
@@ -144,7 +144,7 @@ function Tour () {
               <h3 className="title-cards">
                 Escaneamento
               </h3>
-              <h4 className="text-container">
+              <h4>
                 Profissionais da Allie vão até o local e realizam a captura de imagens 360 º com a câmera Matterport.
               </h4>
             </p>
@@ -152,7 +152,7 @@ function Tour () {
               <h3 className="title-cards">
                 Processamento
               </h3>
-              <h4 className="text-container">
+              <h4>
                 Através das informações coletadas será feito o processamento das imagens por nossa equipe.
               </h4>
             </p>
@@ -160,7 +160,7 @@ function Tour () {
               <h3 className="title-cards">
                 Publicação
               </h3>
-              <h4 className="text-container">
+              <h4>
                 Pronto. Agora você pode publicar seu Tour Virtual 360º em seu site, intranet e até no Google StreetView!
               </h4>
             </p>

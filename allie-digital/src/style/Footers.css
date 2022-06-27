@@ -16,15 +16,22 @@
 }
 
 a {
-  color:  #d8d8c0 ;
+  color:  #d8d8c0;
 }
 
 img {
   width: 40px;
   justify-content: space-between;
-
 }
 
 .icones-contato {
   display: flex;
+}
+
+.title-endereco {
+  padding-top: 10px;
+}
+
+.final-endereco {
+  margin-bottom: 20px;
 }

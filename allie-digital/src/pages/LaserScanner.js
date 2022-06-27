@@ -28,7 +28,7 @@ function LaserScanner () {
         <h3 className="title-cards">
           O que é a Nuvem de Pontos?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           A nuvem de pontos recria objetos e estruturas referenciadas a partir de uma grande coleção de pontos. Esses pontos são obtidos de uma captura realizada com um laser scanner 3D. 
           Quando esses pontos são anexados a um software é possível utilizá-los como base para o seu desenho ou modelo 3D.
         </h4>
@@ -36,7 +36,7 @@ function LaserScanner () {
         <h3 className="title-cards">
           Para que serve?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Entre seus usos mais comuns temos os levantamentos topográfico de regiões, mapeamentos geológicos, captação de estruturas para registro de patrimônio histórico, 
           monitoramento de estruturas para identificar desgastes e até para fazer o mapeamento da execução das instalações em edifícios residenciais e comerciais, para se evitar perder tempo fazendo as-built. 
           Ou seja, aplicações que podem ser utilizadas em diferentes estágios de uma obra, seja ela feita do zero ou uma reforma.
@@ -45,7 +45,7 @@ function LaserScanner () {
         <h3 className="title-cards">
           Qual a nossa especialidade?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Com equipamentos de última geração e knowhow obtido graças às nossas parcerias com a IBR Engenharia e outras empresas do ramo, 
           temos tudo que você precisa para uma captura perfeita de nuvens de pontos que irá auxiliar muito o desenvolvimento de seus projetos. 
         </h4>
@@ -53,7 +53,7 @@ function LaserScanner () {
         <h3 className="title-cards">
           O que podemos fazer?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Realizamos a captura das nuvens de pontos com nosso laser scanner 3D e exportamos para a utilização de sua equipe, ou terceiros, 
           para a construção de modelos 3D precisos e baseados na realidade.
         </h4>
@@ -127,7 +127,7 @@ function LaserScanner () {
               <h3 className="title-cards">
                 Orçamento
               </h3>
-              <h4 className="text-container">
+              <h4>
                 O Orçamento é feito a partir das informações enviadas ou após visita ao imóvel.
               </h4>
             </p>
@@ -135,7 +135,7 @@ function LaserScanner () {
               <h3 className="title-cards">
                 Escaneamento
               </h3>
-              <h4 className="text-container">
+              <h4>
                 Profissionais da Allie vão até o local e realizam a captura do ambiente com o Laser Scanner.
               </h4>
             </p>
@@ -143,7 +143,7 @@ function LaserScanner () {
               <h3 className="title-cards">
                 Processamento
               </h3>
-              <h4 className="text-container">
+              <h4>
                 Através das informações coletadas será feito o processamento das nuvens de pontos por nossa equipe.
               </h4>
             </p>
@@ -151,7 +151,7 @@ function LaserScanner () {
               <h3 className="title-cards">
                 Publicação
               </h3>
-              <h4 className="text-container">
+              <h4>
                 Pronto. Agora você pode usar as nuvens de pontos para dar suporte aos projetos de engenharia, arquitetura e infraestrutura.
               </h4>
             </p>
