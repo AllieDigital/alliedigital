@@ -150,17 +150,17 @@ function Principal () {
 
       <div className="container-cards">
         <p className="sub-card">
-          <h4 className="text-container">
+          <h4>
             Estamos sempre em busca de novidades, aprimorando produtos e serviços para que você possa fazer parte da revolução digital.
           </h4>
         </p>
         <p className="sub-card">
-          <h4 className="text-container">
+          <h4>
             Nossa equipe multidisciplinar está em constante evolução, desenvolvendo técnicas, processos e produtos a todo momento.
           </h4>
         </p>
         <p className="sub-card">
-          <h4 className="text-container">
+          <h4>
             Investimos em equipamentos de última geração para podermos desenvolver as melhores experiências virtuais possíveis.
           </h4>
         </p>
