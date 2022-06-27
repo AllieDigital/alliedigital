@@ -30,7 +30,7 @@ function Principal () {
             </div>
 
             <div class="carousel__snapper">
-              <a href="#carousel__slide5" class="carousel__prev">Go to last slide</a>
+              <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
               <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
             </div>
           </li>
@@ -95,29 +95,9 @@ function Principal () {
             
             <div class="carousel__snapper"></div>
             <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-            <a href="#carousel__slide5" class="carousel__next">Go to first slide</a>
-          </li>
-
-          <li id="carousel__slide5" tabindex="0" class="carousel__slide">
-            
-            <div className="aplicativos">
-              <h1>
-                Aplicativos
-              </h1>
-              <h4>
-                Desenvolvemos aplicativos sob medida para os lançamentos dos empreendimentos da sua empresa.
-              </h4>
-              <Link to="/aplicativos">
-                <button type="button">
-                  Descubra
-                </button>
-              </Link>
-            </div>
-            
-            <div class="carousel__snapper"></div>
-            <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
             <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
           </li>
+
         </ol>
         <aside class="carousel__navigation">
           <ol class="carousel__navigation-list">
@@ -132,9 +112,6 @@ function Principal () {
             </li>
             <li class="carousel__navigation-item">
               <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
-            </li>
-            <li class="carousel__navigation-item">
-              <a href="#carousel__slide5" class="carousel__navigation-button">Go to slide 5</a>
             </li>
           </ol>
         </aside>

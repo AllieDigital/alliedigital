@@ -2,7 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 90px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.title-nuvem {
+  padding-top: 20px;
 }
 
 .container-cards {
@@ -27,7 +33,8 @@
 
 .sub-card:hover {
   border-radius: 10px;
-  background-image: linear-gradient(#d8d8c0, #1693a5);
+  background-image: linear-gradient(#66C29E, #1693a5);
+  color: black;
 }
 
 .text-container {
@@ -94,93 +101,6 @@
   margin-bottom: 20px;
 }
 
-
-
-
-.nav{
-width: 90%;
-  text-align: start;
-  display: flex;
-}
-/* reseta as listas em .nav */
-.nav, .nav ul{
-list-style:none;
-margin:0;
-padding:0;
-  display: flex;
-}
-/* estiliza todos os botões dentro de nav */
-.nav h4,
-.nav span{
-display:block;
-text-decoration:none;
-transition:all .3s ease; /* essa animação é entre a cor de fundo e cor da fonte, sempre muito útil */
-}
-/* posiciona o item relativo para os subitens (flutuantes) respeitarem sua posição */
-.nav li{
-position:relative;
-}
-/* estiliza o primeiro nível */
-.nav > li > h4,
-.nav > li > span{
-padding:10px;
-background:#eee;
-margin-bottom:1px;
-color:#333;
-}
-.nav li > span{
-cursor:pointer;
-}
-.nav li > span:after{
-display:inline-block;
-content:"+";
-font-weight:bold;
-font-size:16px;
-float:right;
-line-height:1em;
-}
-.nav > li > h4:hover,
-.nav > li > span:hover{
-background: #d8d8c0 ;
-color:  #1693a5;
-  
-}
-/* estiliza todos os subitems, ou seja, a lista pode ter vários subdropdowns. Está flutuante pois inseri position:absolute, se você remover o item mostra abaixo;*/
-.nav li > ul{
-position:center;
-top:100%;
-z-index:2;
-background:#aaa;
-max-height:0; /* limita a altura para animarmos (obs este elemento não pode ter padding) */
-overflow:hidden;
-transition:all 0.5s ease; /* anima os estados do elemento */
-/*left: 100%; /* descomente esta linha para mostrar ao lado invés de abaixo */
-width:100%; /* deixa o submenu com a largura do pai, depende do caso, ele sobrepõe todos os filhos nesse caso, que não é bom */
-margin-left:5px; /* um espaçamento pra ficar visualmente compreensível os níveis */
-}
-/* 2º nível */
-.nav li  ul > li > h4,
-.nav li  ul > li > span{
-padding:9px;
-font-size:0.9em;
-border-bottom:1px solid white;
-color:#666;
-}
-.nav li > ul > li > h4:hover,
-.nav li > ul > li > span:hover{
-background:tomato;
-color:white;
-}
-
-.nav li.active > span:after{
-content:"-";
-}
-
-.nav li.active > ul{
-max-height:100vh; /* remove a limitação de altura para animar para height:auto.*/
-  animation:0s 1s delay-overflow forwards; /* pequeno hack para o overflow mudar apenas para o item aberto depois da animação terminada */
-}
-
-@keyframes delay-overflow {
-to { overflow:visible; }
+.video-laser {
+  padding-bottom: 30px;
 }

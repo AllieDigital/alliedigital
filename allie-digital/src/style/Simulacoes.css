@@ -2,7 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 150px;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.primeira-explicacao {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
 }
   
 .funcionamento {
@@ -68,4 +78,8 @@
 .experimente {
   background-color: white;
   padding: 20px;
+}
+
+.video-simulacao {
+  padding-bottom: 30px;
 }

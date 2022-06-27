@@ -18,7 +18,7 @@ function LaserScanner () {
           <p/>
           com Laser Scanner
         </h1>
-        <h2>
+        <h2 className="title-nuvem">
           Nuvem de pontos
         </h2>
       </div>
@@ -115,7 +115,7 @@ function LaserScanner () {
           </div>
         </div>
 
-        <video src={ videoLaser } type="video/mp4" controls autoplay="autoplay" width="80%"></video>
+        <video src={ videoLaser } className="video-laser" type="video/mp4" controls autoplay="autoplay" width="80%"></video>
 
         <div className="funcionamento">
           <h2 className="title-funcionamento">

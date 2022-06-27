@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: flex-start;
   padding-top: 90px;
-  padding-bottom: 0;
+  padding-bottom: 30px;
+  padding-left: 40px;
 }
 
 .container-cards {
@@ -28,7 +29,8 @@
 
 .sub-card:hover {
   border-radius: 10px;
-  background-image: linear-gradient(#d8d8c0, #1693a5);
+  background-image: linear-gradient(#66C29E, #1693a5);
+  color: black;
 }
 
 .text-container {

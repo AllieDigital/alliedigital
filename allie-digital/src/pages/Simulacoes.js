@@ -19,7 +19,7 @@ function Simulacoes () {
         <h3 className="title-cards">
           O que são Simulações?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Caminhe por um prédio que ainda não foi construído, dirija por projetos de urbanização que ainda estão sendo planejados, 
           instrua colaboradores sobre procedimentos de emergência, tudo como se fosse um jogo de videogame, fácil e lúdico de utilizar.
         </h4>
@@ -27,7 +27,7 @@ function Simulacoes () {
         <h3 className="title-cards">
           Para que serve?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           As simulações podem ser usadas de diversas maneiras diferentes, elas servem para que o usuário possa absorver 
           informações de forma lúdica, com menores custos e riscos. 
         </h4>
@@ -35,7 +35,7 @@ function Simulacoes () {
         <h3 className="title-cards">
           Qual a nossa especialidade?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Temos experiência na criação de simulações para o ramo da Engenharia, especialmente Engenharia Rodoviária, 
           criando simulações de estradas, loteamentos e obras, onde o cliente pode pilotar veículos e andar com um 
           personagem em um ambiente virtual geolocalizado, como se fosse um videogame, podendo assim perceber com 
@@ -47,7 +47,7 @@ function Simulacoes () {
         <h3 className="title-cards">
           O que podemos fazer?
         </h3>
-        <h4 className="cards-first">
+        <h4 className="primeira-explicacao">
           Apesar de nossa experiência com clientes da área de Engenharia, isso não quer dizer que estamos limitados a isso, 
           muito pelo contrário. Essa experiência nos permite adaptar experiências para qualquer ramo de atividade. 
           Você pode treinar funcionários sobre procedimentos de uma fábrica, pode demonstrar uma nova sede para investidores, 
@@ -118,7 +118,7 @@ function Simulacoes () {
           </div>
         </div>
 
-        <video src={ videoSimulacao } type="video/mp4" controls autoplay="autoplay" width="80%"></video>
+        <video src={ videoSimulacao } className="video-simulacao" type="video/mp4" controls autoplay="autoplay" width="80%"></video>
 
         <div className="experimente">
           <h1 className="title-processo">

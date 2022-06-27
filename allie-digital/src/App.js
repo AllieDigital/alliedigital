@@ -8,7 +8,6 @@ import Tour from './pages/Tour';
 import Cadastro from './pages/Cadastro';
 import Sobre from './pages/Sobre';
 import Realidade from './pages/Realidade';
-import Aplicativos from './pages/Aplicativos';
 import Simulacoes from './pages/Simulacoes';
 
 function App() {
@@ -22,7 +21,6 @@ return (
 <Route path='/tour' element={ <Tour /> } />
 <Route path='/laser' element={ <LaserScanner /> } />
 <Route path='/realidade' element={ <Realidade /> } />
-<Route path='/aplicativos' element={ <Aplicativos /> } />
 <Route path='/simulacoes' element={ <Simulacoes /> } />
 <Route path='/sobre' element={ <Sobre /> } />
 
