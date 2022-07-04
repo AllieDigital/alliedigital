@@ -94,7 +94,7 @@ function Cadastro () {
 
                   <label for="password">Senha</label>
 
-                  <input type="password" id="password" autocomplete="off" />
+                  <input type="password" id="password" />
 
                 </div>
               </div>
