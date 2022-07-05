@@ -5,11 +5,11 @@ function Cadastro () {
   return (
     <body>
 
-        <div id="login">
+        <div id="login2">
 
           <form class="card">
 
-            <div class="card-header">
+            <div class="card-header2">
 
               <h2>Cadastro</h2>
 
@@ -30,23 +30,23 @@ function Cadastro () {
 
                 <div class="card-content-area">
 
-                  <label for="rua">Cep</label>
+                  <label for="cep">Cep</label>
 
-                  <input type="number" id="usuario" />
+                  <input id="usuario" />
 
                 </div>
                 <div class="card-content-area">
 
-                  <label for="numero">Rua</label>
+                  <label for="rua">Rua</label>
 
                   <input type="text" id="usuario" />
 
                 </div>
                 <div class="card-content-area">
 
-                  <label for="cep">Número</label>
+                  <label for="numero">Número</label>
 
-                  <input type="number" id="usuario" />
+                  <input id="usuario" />
 
                 </div>
                 <div class="card-content-area">

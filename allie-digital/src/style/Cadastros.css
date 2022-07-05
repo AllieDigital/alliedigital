@@ -4,18 +4,20 @@ body {
   background-color: #1693a5 ;
 }
 
-#login {
+#login2 {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding-top: 110px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.card-header {
+.card-header2 {
   padding-bottom: 50px;
   opacity: 0.8;
   color: #fff;
+  padding-top: 100px;
 }
 
 .card-header::after {
@@ -87,4 +89,8 @@ body {
   border: 3px solid #d8d8c0;
   margin-bottom: 10px;
   border-radius: 8px;
+}
+
+input::placeholder {
+  color: #a13854;
 }
